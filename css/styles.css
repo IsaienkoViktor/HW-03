@@ -1,0 +1,210 @@
+:root {--main-font: 'Raleway','sans-serif';
+--secondary-font: "Roboto",sans-serif;
+--main-color: #2e2f42}
+.list {
+    list-style: none;
+}
+
+.list {
+    text-decoration: none;
+}
+.address-page{font-style: normal}
+
+/*====== body section======  */
+body {
+    font-family:"Roboto",sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
+}
+/*====== header logo====== */
+.page-web {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* NAVY BLUE */
+    
+    color: #4d5ae5;
+    
+}
+.studio-span {
+    /* NAVY BLUE */
+    color: #2e2f42;
+}
+/*=====Header nav menu=====*/
+.footer-text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;}
+.footer-studio-span{color:#F4F4FD;}
+
+.links {
+    font-family:  "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.header-one{
+    /* Header 1 */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* WHITE */
+
+    color: #FFFFFF;}
+.link:focus,
+.link:hover {
+    color: #404BBF;
+}
+.section-one{background-color: #2e2f42;}
+.main-button{
+    /* Button Text */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+}
+.main-button:focus,
+.main-button:hover{color: #404BBF;
+background-color: #404BBF;}
+.header-three{
+    /* Header 3 */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+
+    color: #2E2F42;}
+.header-two-two{
+    /* Header 2 */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;}
+.header-two-three{
+    /* Header 2 */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;}   
+.section-four{
+    /* CLOUD */
+    background: #F4F4FD;} 
+.page-contact {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.menu-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+.menu-button:focus,
+.menu-button:hover {
+    color: #FFFFFF;
+background-color: #404BBF;}
+.header-one-hidden{visibility: hidden;}
+.header-two-hidden{visibility: hidden;}
+.list-background{background-color: #FFFFFF;}
+p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+.footer-main{
+    /* NAVY BLUE */
+    background: #2E2F42;}
+.footer-paragraf{
+    font-family: 'Roboto','sans serif'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* CLOUD */
+    
+    color: #F4F4FD;
+    }
