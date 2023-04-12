@@ -147,7 +147,7 @@ body {
 
 /**
   |============================
-  | Section 2 Main Page
+  | Section 2 "section sides"
   |============================
 */
 .header-two-hidden {
@@ -160,6 +160,11 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;}
+/**
+|============================
+| Section 3 "what are we doing"
+|============================
+*/
 .header-two-two{
     /* Header 2 */
     font-weight: 700;
@@ -169,20 +174,21 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;}
+
+/**
+  |============================
+  | Section 4 "Our team"
+  |============================
+*/
 .header-two-three{
     /* Header 2 */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;}   
-
 .section-four{
     background: #F4F4FD;} 
 
@@ -228,19 +234,6 @@ p {
   |============================
 */
 
-.footer-text {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
 .footer-studio-span {
     color: #F4F4FD;
 }
@@ -249,7 +242,7 @@ p {
     background: #2E2F42;
 }
 
-.footer-text {
+.footer-paragraf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
