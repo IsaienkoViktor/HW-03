@@ -60,8 +60,6 @@ body {
 .footer-studio-span{color:#F4F4FD;}
 
 .links {
-    font-family:  "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -72,8 +70,6 @@ body {
 }
 .header-one{
     /* Header 1 */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -91,8 +87,6 @@ body {
 .section-one{background-color: #2e2f42;}
 .main-button{
     /* Button Text */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -108,12 +102,9 @@ body {
     color: #FFFFFF;
 }
 .main-button:focus,
-.main-button:hover{color: #404BBF;
-background-color: #404BBF;}
+.main-button:hover{background-color: #404BBF;}
 .header-three{
     /* Header 3 */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -124,8 +115,6 @@ background-color: #404BBF;}
     color: #2E2F42;}
 .header-two-two{
     /* Header 2 */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -139,8 +128,6 @@ background-color: #404BBF;}
     color: #2E2F42;}
 .header-two-three{
     /* Header 2 */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -156,8 +143,6 @@ background-color: #404BBF;}
     /* CLOUD */
     background: #F4F4FD;} 
 .page-contact {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
@@ -165,8 +150,6 @@ background-color: #404BBF;}
     color: #434455;
 }
 .menu-button{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -182,8 +165,6 @@ background-color: #404BBF;}
 .header-two-hidden{visibility: hidden;}
 .list-background{background-color: #FFFFFF;}
 p {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -195,8 +176,6 @@ p {
     /* NAVY BLUE */
     background: #2E2F42;}
 .footer-paragraf{
-    font-family: 'Roboto','sans serif'
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
