@@ -13,6 +13,18 @@
 --color-grey: #2e2f42;
 --color-white: #ffffff;
 --color-dairy: #fcfcfc;}
+
+/**
+  |============================
+  | Border box
+  |============================
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /**
   |============================
   | Reset
