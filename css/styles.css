@@ -77,7 +77,7 @@ body {
   |============================
 */
 
-.page-header {}
+/* .page-header {} */
 
 
 .header-container {   
@@ -123,9 +123,9 @@ body {
         color: #404BBF;
     }
 
-.header-item-link {}
+/* .header-item-link {}
 
-.header-address {}
+.header-address {} */
 
 .header-address-menu {   
     font-style: normal;
@@ -135,7 +135,7 @@ body {
     line-height: 1.5;
     color: #434455;
 }
-.header-address-item {}
+/* .header-address-item {} */
 
 .header-item-mail:focus,
 .header-item-mail:hover{color: #404BBF;}
@@ -208,13 +208,13 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.sides-container{}
+/* .sides-container{} */
 .sides-menu {
     display: flex;
     gap: 24px;
 }
 
-.sides-item {}
+/* .sides-item {} */
 
 .sides-header {
     font-weight: 500;
@@ -257,8 +257,8 @@ body {
     display: flex;
     gap: 24px;}
 
-.wawd-item {}
-.wawd-container{}
+/* .wawd-item {}
+.wawd-container{} */
 
 /**
   |============================
@@ -286,9 +286,9 @@ body {
     display: flex;
     gap: 24px;}
 
-.ot-item {
+/* .ot-item {
 
-}
+} */
 
 .ot-header3 {
     font-weight: 500;
