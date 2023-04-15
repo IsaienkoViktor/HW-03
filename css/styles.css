@@ -339,3 +339,91 @@ body {
 .footer-logo{
     margin-bottom: 8px;
 }
+/**
+  |============================
+  | Portfolio header and footer same to main page 
+  |============================
+*/
+
+/**
+  |============================
+  | Portfolio section - "portfoilo"
+  |============================
+*/
+.portfolio-section {
+    padding-top: 168px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio-header1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.portfolio-menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.portfolio-btn {
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover{
+    color: white;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.cards-menu {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding-top: 72px;
+
+}
+.portfolio-item {
+    border-bottom: 1px solid #E7E9FC;
+}
+.portfoilo-img {    
+}
+.portfoilo-header2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.portfolio-text {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #434455;
+}
