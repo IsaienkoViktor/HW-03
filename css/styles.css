@@ -59,9 +59,9 @@ img{display: block;}
     margin-left: auto;
     margin-right: auto;
     /* outline: 2px solid red;
-    outline-offset: -2px;
+    outline-offset: -2px; */
     padding-left: 15px;
-    padding-right: 15px; */
+    padding-right: 15px;
 }
 body {
     font-size: 16px;
@@ -76,22 +76,20 @@ body {
   | Page Header - "header"
   |============================
 */
-
-/* .page-header {} */
-
-
+.page-header{
+    border-bottom: 1px solid #E7E9FC;
+}
 .header-container {   
     padding-top: 24px;
     padding-bottom: 24px; 
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
-    cursor: pointer;
-    
+    cursor: pointer;       
 }
 .navigation {
     display: flex;
     margin-right: auto;
+    align-items: center
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -116,6 +114,7 @@ body {
 .header-menu {
     display: flex;       
     gap: 40px;
+    padding: 24px 0 24px 0
     
 }
 .header-item:focus,
@@ -155,7 +154,7 @@ body {
     padding-bottom: 188px;
     background-color: #2e2f42;}
 
-.hero-header1 {
+.hero-header-title{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -180,7 +179,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 16px 32px;
-
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -212,9 +214,10 @@ body {
 .sides-menu {
     display: flex;
     gap: 24px;
+    /* width: calc((100% - 72px) / 4); */
 }
 
-/* .sides-item {} */
+.sides-item {width: calc((100% - 72px) / 4);}
 
 .sides-header {
     font-weight: 500;
@@ -239,7 +242,7 @@ body {
 .wawd-section{
     padding-top: 0;
     padding-bottom: 120px;}
-.wawd-header2 {
+.wawd-header-subtitle {
     margin-left: auto;
     margin-right: auto;
     max-width: 323px;    
@@ -252,13 +255,12 @@ body {
     color: #2E2F42;
     padding-bottom: 0;
 }
-
 .wawd-menu {
     display: flex;
     gap: 24px;}
 
-/* .wawd-item {}
-.wawd-container{} */
+.wawd-item {width: calc((100% - 48px) / 3);}
+/* .wawd-container{} */
 
 /**
   |============================
@@ -266,9 +268,9 @@ body {
   |============================
 */
 .ot-section{
-    padding-top: 0;
+    padding-top: 120px;
     padding-bottom: 120px;}
-.ot-header2 {
+.ot-header-subtitle {
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
@@ -286,11 +288,11 @@ body {
     display: flex;
     gap: 24px;}
 
-/* .ot-item {
+.ot-item {
+    width: calc((100% - 72px) / 4)
+}
 
-} */
-
-.ot-header3 {
+.ot-header-suptitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -307,6 +309,10 @@ body {
     text-align: center;
     color: #434455;
     padding-bottom: 0;
+    }
+.ot-item-text{
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
 }
 /**
   |============================
@@ -338,6 +344,8 @@ body {
 }
 .footer-logo{
     margin-bottom: 8px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 /**
   |============================
@@ -351,12 +359,13 @@ body {
   |============================
 */
 .portfolio-section {
-    padding-top: 168px;
+    padding-top: 96px;
     padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
 }
-.portfolio-header1 {
+/* .container-header-btn */
+.portfolio-header-title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -377,6 +386,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 72px
 
 }
 .portfolio-btn {
@@ -398,7 +408,9 @@ body {
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border: 1px solid transparent;
 }
+/* .portfolio-card{} */
 .cards-menu {
     display: flex;
     flex-wrap: wrap;
@@ -408,17 +420,18 @@ body {
 
 }
 .portfolio-item {
-    border-bottom: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #E7E9FC;
 }
 /* .portfoilo-img {    
 } */
-.portfoilo-header2 {
+.portfoilo-header-suptitle{
     margin-top: 32px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: #2E2F42;    
 }
 .portfolio-text {
     margin-bottom: 32px;
