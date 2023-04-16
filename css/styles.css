@@ -112,8 +112,6 @@ body {
 .header-menu {
     display: flex;       
     gap: 40px;  
-    /* padding-top: 24px;
-    padding-bottom: 24px;  */
 }
 .header-item:focus,
 .header-item:hover{
@@ -170,7 +168,6 @@ body {
 }
 
 .hero-button {
-    /* Button Text */
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -218,7 +215,6 @@ body {
 .sides-menu {
     display: flex;
     gap: 24px;
-    /* width: calc((100% - 72px) / 4); */
 }
 
 .sides-item {width: calc((100% - 72px) / 4);}
@@ -359,7 +355,7 @@ body {
 
 /**
   |============================
-  | Portfolio section - "portfoilo"
+  | Portfolio section - "portfolio"
   |============================
 */
 .portfolio-section {
@@ -393,12 +389,7 @@ body {
     margin-bottom: 72px
 
 }
-/* .cards-menu-img{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-} */
+/* .cards-menu-img{} */
 .portfolio-btn {
     padding-top: 12px;
     padding-left: 24px;
@@ -434,7 +425,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    /* margin-bottom: 8px; */
 }
 .portfoilo-header-suptitle{
     margin-bottom: 8px;
