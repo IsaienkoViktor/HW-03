@@ -112,14 +112,17 @@ body {
 .header-menu {
     display: flex;       
     gap: 40px;  
-    padding-top: 24px;
-    padding-bottom: 24px; 
+    /* padding-top: 24px;
+    padding-bottom: 24px;  */
 }
 .header-item:focus,
 .header-item:hover{
         color: #404BBF;
     }
-/* .header-item{} */
+.header-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+ } 
 /* .header-item-link {}
 
 .header-address {} */
