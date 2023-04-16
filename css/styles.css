@@ -84,7 +84,11 @@ body {
 .header-container {   
     display: flex;
     align-items: center;
-    cursor: pointer;     
+    cursor: pointer;   
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 24px;
+    padding-bottom: 24px; 
       
 }
 .navigation {
