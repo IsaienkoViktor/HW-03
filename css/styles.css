@@ -437,15 +437,13 @@ body {
     margin-bottom: 8px;
 }
 .portfoilo-header-suptitle{
-    /* margin-top: 32px; */
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;    
 }
 .portfolio-text {
-    /* margin-bottom: 32px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
