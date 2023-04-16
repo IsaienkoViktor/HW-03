@@ -60,6 +60,8 @@ img{display: block;}
     margin-right: auto;
     /* outline: 2px solid red;
     outline-offset: -2px; */
+    padding-top: 24px;
+    padding-bottom: 24px; 
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -80,11 +82,10 @@ body {
     border-bottom: 1px solid #E7E9FC;
 }
 .header-container {   
-    padding-top: 24px;
-    padding-bottom: 24px; 
     display: flex;
     align-items: center;
-    cursor: pointer;       
+    cursor: pointer;     
+      
 }
 .navigation {
     display: flex;
@@ -114,7 +115,8 @@ body {
 .header-menu {
     display: flex;       
     gap: 40px;
-    padding: 24px 0 24px 0
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .header-item:focus,
