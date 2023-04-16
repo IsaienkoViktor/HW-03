@@ -111,16 +111,15 @@ body {
 
 .header-menu {
     display: flex;       
-    gap: 40px;   
+    gap: 40px;  
+    padding-top: 24px;
+    padding-bottom: 24px; 
 }
 .header-item:focus,
 .header-item:hover{
         color: #404BBF;
     }
-.header-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+/* .header-item{} */
 /* .header-item-link {}
 
 .header-address {} */
@@ -267,7 +266,7 @@ body {
   |============================
 */
 .ot-section{
-    padding-top: 0px;
+    padding-top: 120px;
     padding-bottom: 120px;}
 .ot-header-subtitle {
     margin-bottom: 72px;
