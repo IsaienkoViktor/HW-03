@@ -111,16 +111,16 @@ body {
 
 .header-menu {
     display: flex;       
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
+    gap: 40px;   
 }
 .header-item:focus,
 .header-item:hover{
         color: #404BBF;
     }
-
+.header-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 /* .header-item-link {}
 
 .header-address {} */
@@ -320,7 +320,7 @@ body {
 */
 
 .footer-main{
-    padding-top: 0;
+    padding-top: 120px;
     padding-bottom: 120px;
     background-color: #2E2F42;
     padding-top: 100px;
@@ -387,6 +387,12 @@ body {
     justify-content: center;
     margin-bottom: 72px
 
+}
+.cards-menu-img{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .portfolio-btn {
     padding-top: 12px;
