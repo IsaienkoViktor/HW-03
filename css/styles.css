@@ -123,7 +123,10 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
  } 
-/* .header-item-link {}
+.header-item-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-address {} */
 
