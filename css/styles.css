@@ -127,7 +127,7 @@ body {
     padding-bottom: 24px;
 }
 
-.header-address {} 
+/* .header-address {}  */
 
 .header-address-menu {   
     font-style: normal;
@@ -284,7 +284,8 @@ body {
     gap: 24px;}
 
 .ot-item {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .ot-header-suptitle {
@@ -306,7 +307,7 @@ body {
     }
 .ot-item-text{
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
 }
 /**
   |============================
